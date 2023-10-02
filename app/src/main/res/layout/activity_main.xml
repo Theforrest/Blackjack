@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/table_background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_player1"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player2"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="25dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player3"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="50dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player4"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="75dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player5"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="100dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player6"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="125dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player7"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="150dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player8"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="175dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player9"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="200dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player10"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="225dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_player11"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="250dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house1"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="250dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/iv_house11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/card_back" />
+
+    <ImageView
+        android:id="@+id/iv_house2"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="225dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house3"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="200dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/iv_house11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house4"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="175dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house5"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="150dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house6"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="125dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house7"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="100dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house8"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="75dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house9"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="50dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/iv_house11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house10"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:layout_marginEnd="25dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/iv_house11"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <ImageView
+        android:id="@+id/iv_house11"
+        android:layout_width="126dp"
+        android:layout_height="192dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ace_clubs" />
+
+    <Button
+        android:id="@+id/btn_robar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/robar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btn_plantarse"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <Button
+        android:id="@+id/btn_plantarse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plantarse"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn_robar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/tv_dinero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textColor="#FFC107"
+        android:textSize="34sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_robar"
+        tools:text="100" />
+
+    <TextView
+        android:id="@+id/tv_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_robar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="WINNER! 😎" />
+
+    <Button
+        android:id="@+id/btn_jugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jugar"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_robar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_robar" />
+
+    <Button
+        android:id="@+id/btn_empezar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/empezar"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_robar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btn_robar" />
+
+    <EditText
+        android:id="@+id/et_apuesta"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="@string/apuesta"
+        android:importantForAutofill="no"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColorHint="#FFEB3B"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/tv_dinero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
